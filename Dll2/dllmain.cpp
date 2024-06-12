@@ -4,7 +4,7 @@
 #include <utility>
 
 extern "C" {
-    __declspec(dllexport) void process_arrays(int nLen, double* result_array, unsigned short** ushort_array, double** double_array) {
+    __declspec(dllexport) void process_arrays(int nLen, unsigned short** ushort_array, double** double_array) {
         // Allocate memory for the arrays
         *ushort_array = new unsigned short[nLen];
         *double_array = new double[nLen];

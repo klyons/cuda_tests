@@ -16,3 +16,17 @@ extern "C" {
         }
     }
 }
+
+extern "C" {
+    __declspec(dllexport) void add_to_arrays(int nLen, double* pArray, double** pRefResult) {
+        // Allocate memory for the arrays
+        pArray = new double[nLen];
+        *pRefResult = new double[nLen];
+
+        // Fill the arrays with the square of the index
+        for (int i = 0; i < nLen; i++) {
+            (*pRefResult)[i] = i * i;
+        }
+    }
+}
+

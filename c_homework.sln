@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Dll2", "Dll2\Dll2.vcxproj", "{E719C193-F593-4E29-ACE2-129FC3C2E64A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C_homework", "Dll2\Dll2.vcxproj", "{E719C193-F593-4E29-ACE2-129FC3C2E64A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "linkedFunctions", "linkedFunctions\linkedFunctions.vcxproj", "{5FECF465-E645-49AE-BCB4-D2A79E451DF0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,14 @@ Global
 		{E719C193-F593-4E29-ACE2-129FC3C2E64A}.Release|x64.Build.0 = Release|x64
 		{E719C193-F593-4E29-ACE2-129FC3C2E64A}.Release|x86.ActiveCfg = Release|Win32
 		{E719C193-F593-4E29-ACE2-129FC3C2E64A}.Release|x86.Build.0 = Release|Win32
+		{5FECF465-E645-49AE-BCB4-D2A79E451DF0}.Debug|x64.ActiveCfg = Debug|x64
+		{5FECF465-E645-49AE-BCB4-D2A79E451DF0}.Debug|x64.Build.0 = Debug|x64
+		{5FECF465-E645-49AE-BCB4-D2A79E451DF0}.Debug|x86.ActiveCfg = Debug|Win32
+		{5FECF465-E645-49AE-BCB4-D2A79E451DF0}.Debug|x86.Build.0 = Debug|Win32
+		{5FECF465-E645-49AE-BCB4-D2A79E451DF0}.Release|x64.ActiveCfg = Release|x64
+		{5FECF465-E645-49AE-BCB4-D2A79E451DF0}.Release|x64.Build.0 = Release|x64
+		{5FECF465-E645-49AE-BCB4-D2A79E451DF0}.Release|x86.ActiveCfg = Release|Win32
+		{5FECF465-E645-49AE-BCB4-D2A79E451DF0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
